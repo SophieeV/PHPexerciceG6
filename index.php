@@ -17,7 +17,7 @@
         <label for="surname">Prénom</label>
             <input type="text" id="surname" name="prenom"placeholder="votre prénom" required></br>
         <label for="fichier">fichier</label>
-            <input type="file" id="fichier" name="fichier" required></br>
+            <input type="file" id="fichier" accept=".pdf" name="fichier"></br>
       <button type="submit">envoyer</button>
     </form>
 
